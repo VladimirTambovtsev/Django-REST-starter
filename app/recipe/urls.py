@@ -9,6 +9,6 @@ router.register('ingredients', views.IngredientViewSet)
 
 app_name = 'recipe'
 
-urlpatters = [
+urlpatterns = [
   path('', include(router.urls))
 ]
